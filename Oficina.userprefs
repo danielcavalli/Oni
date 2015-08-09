@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Downloads\GGC-master\GGC-master\Assets\Resources\Scripts\OnGuiScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TileSettings.cs">
     <Files>
-      <File FileName="..\..\Downloads\GGC-master\GGC-master\Assets\Resources\Scripts\LevelManagment.cs" Line="9" Column="3" />
-      <File FileName="..\..\Downloads\GGC-master\GGC-master\Assets\Resources\Scripts\PlayerMovement.cs" Line="19" Column="26" />
-      <File FileName="..\..\Downloads\GGC-master\GGC-master\Assets\Resources\Scripts\OnGuiScript.cs" Line="55" Column="39" />
+      <File FileName="Assets\TileSettings.cs" Line="38" Column="41" />
+      <File FileName="Assets\SetGrid.js" Line="48" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

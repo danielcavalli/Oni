@@ -1,56 +1,42 @@
 ﻿using UnityEngine;
-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Form_Servant;
 using System.Text.RegularExpressions;
 using System.Runtime.InteropServices;
 using System.IO;
-using System.Diagnostics;
 
-public class TileSettings : MonoBehaviour 
+public class TileSettings : MonoBehaviour
 {
-
-	List<string> user_lines = new List<string> { };
-	string[] userDatas = new string[] { };
+	List<MapData> map_data = new List<MapData>();
+	List<string> lines = new List<string>();
 	
-	static public void ReadFile1()
+	List<string> linesCount = new List<string>();
+	public string[,] data;
+	
+	public string user = Environment.GetEnvironmentVariable("username");
+	public string arquivin;
+	public string[] qualquer;
+	void Start()
 	{
-		using (StreamReader sr = new StreamReader("MyFile.txt"))
+		arquivin = "MapSettings.lua";
+		using (StreamReader file = new StreamReader("MapSettings.lua"))
 		{
 			string line;
-			while ((line = sr.ReadLine()) != null)
+			while ((line = file.ReadLine()) != null)
 			{
-				user_lines.Add(line);
-				string lastLine = sr.ReadLine("MyFile.txt").Last();
-				userDatas = lastLine.Split('|');
+				linesCount.Add(line);
 			}
 		}
-		for (int i = 0; i < user_lines.Count; i++)
+		for (int i = 0; i < 100; i++)
 		{
-			userDatas = user_lines[i].Split('|');
-			servantBox.DisplayMember = "Name";
+			for (int n = 0; n < 100; n++)
+			{
+				data[i,n] = linesCount[i,n].Split('|');
+			}
 		}
-			
+
 	}
-	/*void Start()
-	{
-		for(var i = 0;i < linha;i++)
-		{
-			for(var n = 0;n < coluna;n++)
-			{
-				if(grid_type[i][n] != false)
-				{
-					Instantiate(T,new Vector3(grid_x[i],0,grid_y[n]),T.transform.rotation);
-				}
-			}
-		}
-	}*/
 }

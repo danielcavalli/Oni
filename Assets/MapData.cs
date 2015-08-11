@@ -3,22 +3,18 @@ using System.Collections;
 
 public class MapData : MonoBehaviour
 {
-	public int type;
-	public int vanity;
-	public int value;
-	public GameObject nullObj;
-	
-	public MapData(int type, int vanity, int value)
+	GameObject Camera1;
+	void OnMouseDown()
 	{
-		this.type = type;
-		this.vanity = vanity;
-		this.value = value;
-	}
-	public void Inst(int posx,int posy,int posz)
-	{
-		if(type == 0)
+		switch(MoveCamera.type)
 		{
-			Instantiate(nullObj, new Vector3(posx, posy, posz), Quaternion.identity);
+			case "Null":
+				GetComponent<SpriteRenderer>().color = Color.green;
+				break;
+			case "Street":
+				GetComponent<SpriteRenderer>().color = Color.black;
+				break;
 		}
+		
 	}
 }

@@ -5,7 +5,7 @@ public class MoveCamera : MonoBehaviour {
 
 
 	public int speed = 1;
-
+	public static string type;
 	void Start () 
 	{
 	
@@ -29,6 +29,19 @@ public class MoveCamera : MonoBehaviour {
 		if (Input.GetKey (KeyCode.S)) 
 		{
 			transform.position += new Vector3(0,0,-speed);
+		}
+		if (Input.GetKey (KeyCode.S)) 
+		{
+			transform.position += new Vector3(0,0,-speed);
+		}
+		if (Input.GetKeyDown(KeyCode.Q)) 
+		{
+			type = "Null";
+		}
+		if (Input.GetKeyDown(KeyCode.E)) 
+		{
+			type = "Street";
+			Debug.Log(type);
 		}
 	}
 }

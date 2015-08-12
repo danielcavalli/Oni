@@ -41,7 +41,6 @@ public class MoveCamera : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.E)) 
 		{
 			type = "Street";
-			Debug.Log(type);
 		}
 	}
 }

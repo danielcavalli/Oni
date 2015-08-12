@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\MapData.cs" />
      <Compile Include="Assets\MoveCamera.cs" />
+     <Compile Include="Assets\SaveMapMPS.cs" />
      <Compile Include="Assets\TileSettings.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>

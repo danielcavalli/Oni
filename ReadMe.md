@@ -14,7 +14,7 @@ ONI, a Business game where you control a Bus Company and defines their future.
   - GPU: Nvidia Nvidia 9800GT, Ati 6570 or higher
   - Size in HD: 3gb
 
-## Changelog
+## Changelog:
 ##Pre-Alpha
 - v0.1 (July 2015)
   - Started the Map Editor System (MPS)

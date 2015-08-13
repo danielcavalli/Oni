@@ -5,8 +5,8 @@
 ONI, a Business game where you control a Bus Company and defines their future.
 
 ### Current Version :
-  - Master Branch: 0.2.7v
-  - Test Branch: 0.2.7v
+  - Master Branch: 0.2.7v Pre-Alpha
+  - Test Branch: 0.2.7v Pre-Alpha
 
 ## ESTIMATED Minimun Requirements:
   - CPU: Intel Core 2 Duo+ or AMD Phenom II X2+
@@ -15,6 +15,7 @@ ONI, a Business game where you control a Bus Company and defines their future.
   - Size in HD: 3gb
 
 ## Changelog
+  #Pre-Alpha 
 - v0.1 (July 2015)
   - Started the Map Editor System (MPS)
   - We started the map generation.

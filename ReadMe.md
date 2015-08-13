@@ -2,7 +2,7 @@
 ===========
 
 [![Gitter](https://www.facebook.com/)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-ONI, a Bussines game where you control a Bus Company and it's future.
+ONI, a Business game where you control a Bus Company and defines their future.
 
 ### Current Version :
   - Master Branch: 0.2.7v

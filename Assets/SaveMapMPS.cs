@@ -41,7 +41,7 @@ public class SaveMapMPS : MonoBehaviour {
 		{
 			grid();
 			canSave = 150;
-			using (StreamWriter file = new StreamWriter("MapSettings2.mps"))
+			using (StreamWriter file = new StreamWriter("MapSettings.mps"))
 			{
 				for(var i = 0;i < linha;i++)
 				{

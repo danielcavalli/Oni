@@ -2,19 +2,20 @@
 ===========
 
 [![Gitter](https://www.facebook.com/)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-ONI, a Bussines game where you control a Bus Company and it's future.
+ONI, a Business game where you control a Bus Company and defines their future.
 
 ### Current Version :
-  - Master Branch: 0.2.7v
-  - Test Branch: 0.2.7v
+  - Master Branch: 0.2.7v Pre-Alpha
+  - Test Branch: 0.2.7v Pre-Alpha
 
 ## ESTIMATED Minimun Requirements:
-  - CPU: Core 2 Duo 
-  - Ram Memory: 2GB
-  - GPU: Nvidia 9800GT
+  - CPU: Intel Core 2 Duo+ or AMD Phenom II X2+
+  - Ram Memory: 2GB+
+  - GPU: Nvidia Nvidia 9800GT, Ati 6570 or higher
   - Size in HD: 3gb
 
-## Changelog
+## Changelog:
+##Pre-Alpha
 - v0.1 (July 2015)
   - Started the Map Editor System (MPS)
   - We started the map generation.

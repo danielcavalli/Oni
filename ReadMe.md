@@ -5,7 +5,7 @@
 ONI, a Business game where you control a Bus Company and defines their future.
 
 ### Current Version :
-  - Master Branch: 0.2.7v Pre-Alpha
+  - Master Branch: 0.2.8v Pre-Alpha
   - Test Branch: 0.2.7v Pre-Alpha
 
 ## ESTIMATED Minimun Requirements:

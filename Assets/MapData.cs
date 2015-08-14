@@ -8,6 +8,7 @@ public class MapData : MonoBehaviour
 	public string Type;
 	public int index;
 	public int nindex;
+	int population;
 	void Start()
 	{
 		te = GameObject.Find ("GameManager");
@@ -30,10 +31,12 @@ public class MapData : MonoBehaviour
 				break;
 			case "Bulding1":
 				GetComponent<SpriteRenderer>().color = Color.blue;
+				population = 100;
 				Type = "Bulding1";
 				break;
 			case "Bulding2":
 				GetComponent<SpriteRenderer>().color = Color.yellow;
+				population = 250;
 				Type = "Bulding2";
 				break;	
 		}

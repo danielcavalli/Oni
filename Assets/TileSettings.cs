@@ -41,9 +41,6 @@ public class TileSettings : MonoBehaviour
 				grid_x[i] = i*1.2f;
 				grid_y[n] = n*1.2f;
 				grid_type[i,n] = "Null";
-				/*grid_type[i][n] = gameObject.GetComponent("TileSetting").data[1];
-           		if(grid_type[i][n] == "True")
-            		Instantiate(T, new Vector3(grid_x[i], 0, grid_y[n]), Quaternion.identity);*/
 			}
 		}
 	}
@@ -97,6 +94,14 @@ public class TileSettings : MonoBehaviour
 					break;
 				case "Street":
 					Tile.GetComponent<SpriteRenderer>().color = Color.black;
+					Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
+					break;
+				case "Bulding1":
+					Tile.GetComponent<SpriteRenderer>().color = Color.blue;
+					Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
+					break;
+				case "Bulding2":
+					Tile.GetComponent<SpriteRenderer>().color = Color.yellow;
 					Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
 					break;
 				}

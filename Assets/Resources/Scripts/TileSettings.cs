@@ -95,6 +95,8 @@ public class TileSettings : MonoBehaviour
 				case "Street":
 					Tile.GetComponent<SpriteRenderer>().color = Color.black;
 					Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
+					CarMove.routes[map] = new Vector3(grid_x[i],0,grid_y[n]);
+					Debug.Log(gameObject.GetComponent<CarMove>().routes[i][n]);
 					break;
 				case "Bulding1":
 					Tile.GetComponent<SpriteRenderer>().color = Color.blue;

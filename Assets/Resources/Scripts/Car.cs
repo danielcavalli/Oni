@@ -5,22 +5,25 @@ public class Car : MonoBehaviour
 {
 	
 	Vector3 ta;
-	GameObject GameManager;
+	int index;
+	int nindex;
+	//GameObject GameManager;
+	
 	void Start () 
 	{
-		GameManager = GameObject.FindGameObjectWithTag("GameController");
-		ta = GameManager.GetComponent<CarMove>().routes[1][1];
+		
 	}
 	
 	void Update () 
 	{
-		if(transform.position.x < ta.x)
+		if(transform.position.x < CarMove.routes[index,nindex].x)
 		{
-			transform.position += new Vector3(1,0,0);
+			transform.position += new Vector3(0.1f,0,0);
 		}
 	}
-	/*void OnTriggerEnter(Collision Coll)
+	void OnTriggerEnter(Collider coll)
 	{
-		
-	}*/
+		index = coll.GetComponent<MapData>().index;
+		nindex = coll.GetComponent<MapData>().nindex;
+	}
 }

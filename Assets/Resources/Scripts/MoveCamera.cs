@@ -6,11 +6,6 @@ public class MoveCamera : MonoBehaviour {
 
 	public int speed = 1;
 	public static string type;
-	void Start () 
-	{
-	
-	}
-	
 
 	void Update () 
 	{
@@ -41,6 +36,14 @@ public class MoveCamera : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.E)) 
 		{
 			type = "Street";
+		}
+		if (Input.GetKeyDown(KeyCode.R)) 
+		{
+			type = "Bulding1";
+		}
+		if (Input.GetKeyDown(KeyCode.T)) 
+		{
+			type = "Bulding2";
 		}
 	}
 }

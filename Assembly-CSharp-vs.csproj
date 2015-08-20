@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{1DB4ADC7-8D18-7264-E5B2-1568D823C55A}</ProjectGuid>
+	<ProjectGuid>{CF638CAB-2569-B971-962A-2E5DBFC653E7}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,10 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MapData.cs" />
-     <Compile Include="Assets\MoveCamera.cs" />
-     <Compile Include="Assets\SaveMapMPS.cs" />
-     <Compile Include="Assets\TileSettings.cs" />
+     <Compile Include="Assets\Resources\Scripts\Car.cs" />
+     <Compile Include="Assets\Resources\Scripts\CarMove.cs" />
+     <Compile Include="Assets\Resources\Scripts\MapData.cs" />
+     <Compile Include="Assets\Resources\Scripts\MoveCamera.cs" />
+     <Compile Include="Assets\Resources\Scripts\RedoneSettings.cs" />
+     <Compile Include="Assets\Resources\Scripts\SaveMapMPS.cs" />
+     <Compile Include="Assets\Resources\Scripts\TileSettings.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>

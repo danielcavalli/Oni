@@ -14,8 +14,8 @@ public class TileSettings : MonoBehaviour
 	List<string> lines = new List<string>();
 	public List<string> linesCount = new List<string>();
 	//Grid Variables
-	float[] grid_x;
-	float[] grid_y;
+	public float[] grid_x;
+	public float[] grid_y;
 	public string[,] grid_type;
 	public int coluna;
 	public int linha;
@@ -41,9 +41,6 @@ public class TileSettings : MonoBehaviour
 				grid_x[i] = i*1.2f;
 				grid_y[n] = n*1.2f;
 				grid_type[i,n] = "Null";
-				/*grid_type[i][n] = gameObject.GetComponent("TileSetting").data[1];
-           		if(grid_type[i][n] == "True")
-            		Instantiate(T, new Vector3(grid_x[i], 0, grid_y[n]), Quaternion.identity);*/
 			}
 		}
 	}
@@ -87,19 +84,31 @@ public class TileSettings : MonoBehaviour
 			for (int n = 0; n < coluna; n++)
 			{
 				grid_type[i,n] = linesCount[map].Split('|')[1];
-				map++;
 				Tile.GetComponent<MapData>().nindex = n;
 				switch(grid_type[i,n])
 				{
-				case "Null":
-					Tile.GetComponent<SpriteRenderer>().color = Color.green;
-					Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
-					break;
-				case "Street":
-					Tile.GetComponent<SpriteRenderer>().color = Color.black;
-					Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
-					break;
+					case "Null":
+						Tile.GetComponent<SpriteRenderer>().color = Color.green;
+						//Tile.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Art/null");
+						Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
+						break;
+					case "Street":
+						Tile.GetComponent<SpriteRenderer>().color = Color.white;
+						//Tile.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Art/Line");
+						Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
+						break;
+					case "Bulding1":
+						Tile.GetComponent<SpriteRenderer>().color = Color.blue;
+						//Tile.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Art/null");
+						Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
+						break;
+					case "Bulding2":
+						Tile.GetComponent<SpriteRenderer>().color = Color.yellow;
+						//Tile.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Art/null");
+						Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
+						break;
 				}
+				map++;
 			}
 		}
 		canUseSave = true;

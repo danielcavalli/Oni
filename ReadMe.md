@@ -34,3 +34,6 @@ ONI, a Business game where you control a Bus Company and defines their future.
 - v0.2.8 (August 2015)
   - We found a huge Bug in the MPS and we've already started to fix it
   - Daniel started to develop the movement of the cars and Thaís is solving some problems with the world timing.
+    - v0.2.8.07 (August 2015)
+      - Street Map tiles are being replaced, instead of black squares we are adding the sprites of the roads
+      - The major Bug in the MPS found in version 0.2.8.02 still there, we'll work in it after finish more important things          like stop seeing colored squares...  

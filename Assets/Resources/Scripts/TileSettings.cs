@@ -89,19 +89,22 @@ public class TileSettings : MonoBehaviour
 				{
 					case "Null":
 						Tile.GetComponent<SpriteRenderer>().color = Color.green;
+						//Tile.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Art/null");
 						Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
 						break;
 					case "Street":
-						Tile.GetComponent<SpriteRenderer>().color = Color.black;
+						Tile.GetComponent<SpriteRenderer>().color = Color.white;
+						//Tile.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Art/Line");
 						Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
-						CarMove.routes[i,n] = new Vector3((float)grid_x[i], 0.2f,(float)grid_y[n]);
 						break;
 					case "Bulding1":
 						Tile.GetComponent<SpriteRenderer>().color = Color.blue;
+						//Tile.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Art/null");
 						Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
 						break;
 					case "Bulding2":
 						Tile.GetComponent<SpriteRenderer>().color = Color.yellow;
+						//Tile.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Art/null");
 						Instantiate(Tile, new Vector3((float)grid_x[i], 0, (float)grid_y[n]), Tile.transform.rotation);
 						break;
 				}

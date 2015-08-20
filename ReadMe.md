@@ -15,8 +15,8 @@ ONI, a Business game where you control a Bus Company and defines their future.
   - Size in HD: 3gb
 
 ## Changelog:
-
-<h4>  v0.1 (July 2015)</h4>
+<h5>Pre-Alpha</h5>
+<h4>v0.1.0 (July 2015)</h4>
   - Started the Map Editor System (MPS)
   - We started the map generation.
 <h4>v0.1.6 (July 2015)</h4>

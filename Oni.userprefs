@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\0.2.8.07\MapData.cs">
+    <Files>
+      <File FileName="Assets\Resources\Scripts\0.2.8.07\Rota.cs" Line="31" Column="5" />
+      <File FileName="Assets\Resources\Scripts\0.2.8.07\TileBehaviour.cs" Line="12" Column="104" />
+      <File FileName="Assets\Resources\Scripts\0.2.8.07\MoveCamera.cs" Line="111" Column="3" />
+      <File FileName="Assets\Resources\Scripts\0.2.8.07\MapData.cs" Line="50" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

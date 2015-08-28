@@ -1,0 +1,3 @@
+    - v0.2.8.07 (August 2015)
+      - Street Map tiles are being replaced, instead of black squares we are adding the sprites of the roads
+      - The major Bug in the MPS found in version 0.2.8.02 still there, we'll work in it after finish more important things          like stop seeing colored squares...  

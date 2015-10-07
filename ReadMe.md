@@ -33,3 +33,5 @@ ONI, a Business game where you control a Bus Company and defines their future.
 - v0.2.8 (August 2015)
   - We found a huge Bug in the MPS and we've already started to fix it
   - Daniel started to develop the movement of the cars and Thaís is solving some problems with the world timing.
+- v0.2.8.09 (August 2015)
+  - We've started to develop the Users Interactions to turn this mechanics into a game.

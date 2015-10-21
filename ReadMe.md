@@ -1,4 +1,4 @@
-<p><img src="https://drive.google.com/file/d/0BxKV3JCPp9f5Ukk5Vmp1YXRrbm8/view?usp=sharing"></p>
+<p><img src="http://i.imgur.com/nazg45g.png?1"></p>
 ===========
 
 ONI, a Business game where you control a Bus Company and defines their future.

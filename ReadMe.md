@@ -1,7 +1,7 @@
 <p align="center"><img src="http://i.imgur.com/nazg45g.png?1"></p>
 ===========
 
-<center>ONI, a Business game where you control a Bus Company and defines their future.</center>
+<p align="center">ONI, a Business game where you control a Bus Company and defines their future.</p>
 
 #Current Version :
   - Master Branch: 0.2.8v Pre-Alpha

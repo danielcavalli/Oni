@@ -1,4 +1,4 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
+![alt tag](https://drive.google.com/file/d/0BxKV3JCPp9f5Ukk5Vmp1YXRrbm8/view?usp=sharing)
 ===========
 
 ONI, a Business game where you control a Bus Company and defines their future.

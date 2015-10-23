@@ -33,6 +33,6 @@ public class Build_Inst : MonoBehaviour {
 			GameObject people = Instantiate(person, new Vector3(this.transform.position.x, 0, this.transform.position.z), Quaternion.identity) as GameObject;
 			pessoas--;
 		}
-		Debug.Log (timer);
+		//Debug.Log (timer);
 	}
 }

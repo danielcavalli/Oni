@@ -1,19 +1,20 @@
-<p align="center"><img src="http://i.imgur.com/nazg45g.png?1"></p>
+![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
 ===========
 
-<p align="center">ONI, a Business game where you control a Bus Company and defines their future.</p>
+[![Gitter](https://www.facebook.com/)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+ONI, a Business game where you control a Bus Company and defines their future.
 
-#Current Version :
+### Current Version :
   - Master Branch: 0.2.8v Pre-Alpha
   - Test Branch: 0.2.7v Pre-Alpha
 
-# ESTIMATED Minimun Requirements:
+## ESTIMATED Minimun Requirements:
   - CPU: Intel Core 2 Duo+ or AMD Phenom II X2+
   - Ram Memory: 2GB+
   - GPU: Nvidia Nvidia 9800GT, Ati 6570 or higher
   - Size in HD: 3gb
 
-# Changelog:
+## Changelog:
 ##Pre-Alpha
 - v0.1 (July 2015)
   - Started the Map Editor System (MPS)
@@ -33,5 +34,3 @@
 - v0.2.8 (August 2015)
   - We found a huge Bug in the MPS and we've already started to fix it
   - Daniel started to develop the movement of the cars and Thaís is solving some problems with the world timing.
-- v0.2.8.09 (August 2015)
-  - We've started to develop the Users Interactions to turn this mechanics into a game.

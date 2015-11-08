@@ -3,48 +3,20 @@ using System.Collections;
 
 public class MoveCamera : MonoBehaviour 
 {
+	float AxisSpeed;
+	float ZoomRotation = 1;
 	
-	void Update () {
-		
-		float mousePosX = Input.mousePosition.x; 
-		float mousePosY = Input.mousePosition.y; 
-		int scrollDistance = 5; 
-		float scrollSpeed = 1;
-		
-		if (mousePosX < scrollDistance) 
-		{ 
-			transform.Translate(Vector3.right * -scrollSpeed); 
-		} 
-		if (mousePosX >= Screen.width - scrollDistance) 
-		{ 
-			transform.Translate(Vector3.right * scrollSpeed); 
+	void Update () 
+	{
+		//Axis View
+		if(Input.GetKey("q"))
+		{
+			AxisSpeed = -1f;
+			transform.eulerAngles += new Vector3(0,AxisSpeed * ZoomRotation,0);
 		}
-		
-		if (mousePosY < scrollDistance) 
-		{ 
-			transform.Translate(Vector3.up * -scrollSpeed); 
-		} 
-		if (mousePosY >= Screen.height - scrollDistance) 
-		{ 
-			transform.Translate(Vector3.up * scrollSpeed); 
-		}
-		
-		if (mousePosX < scrollDistance) 
-		{ 
-			transform.Translate(Vector3.right * -scrollSpeed); 
-		} 
-		if (mousePosX >= Screen.width - scrollDistance) 
-		{ 
-			transform.Translate(Vector3.right * scrollSpeed); 
-		}
-		
-		if (mousePosY < scrollDistance) 
-		{ 
-			transform.Translate(Vector3.up * -scrollSpeed); 
-		} 
-		if (mousePosY >= Screen.height - scrollDistance) 
-		{ 
-			transform.Translate(Vector3.up * scrollSpeed); 
+		else
+		{
+			AxisSpeed = 0;
 		}
 	}
 }
